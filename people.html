@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People</title>
+
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <style>
+        body,h1,h2,h3,h4,h5 {
+            font-family: "Raleway", sans-serif;
+            background-color: white;
+        }
+
+        .adjustImageSize{
+            display:block;
+            margin: auto;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        header{
+
+            height: 117px;
+            font-family: brushed;
+            letter-spacing: 3px;
+        }
+
+        header img{
+            display:block;
+            margin: auto;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        #popularPosts{
+            box-shadow: 2px 4px 18px #888888;
+            height: 300px;
+        }
+
+        footer{
+            padding:1px;
+            margin-top:0px;
+            color:#ffffff;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        footer p{
+            float: left;
+            border-style: dotted;
+            border-color: transparent;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #socialMedia{
+            display:block;
+            border-style: dashed;
+            border-color: transparent;
+            float:right;
+            margin-top:1%;
+            width: 150px;
+        }
+
+        .container2 {
+            width:80%;
+            margin:auto;
+            padding: 0%;
+            overflow:hidden;
+            border-style: dotted;
+            border-color: black;
+            text-align: center;
+        }
+
+
+        a:link {
+            text-decoration: none;
+            color: #478ff4;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @font-face {
+            font-family: brushed;
+            src: url(fonts/brushed.ttf);
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+    <div style="border-style: dashed; border-color: transparent; width: 50%; height: 90%; margin: auto;">
+        <div id="branding" style="border-style: dashed; border-color: transparent; width: 50%; float: left; margin-top: -2px; margin-left: 70px;">
+            <a href="index4.html">
+                <img src="./img/logo.png" width="100">
+            </a>
+        </div>
+        <p style="border-style: dashed; border-color: transparent; width: 30%; float: left; margin-top: 2.8%; margin-right: 10%; text-align: center; font-size: 40px;">Photography</p>
+    </div>
+</header>
+
+<h1 style="text-align: center; margin-top: 1%; position: fixed; width: 100%; background: none; font-size: 40px">People</h1>
+
+<div style="height: 600px; border-style: dashed; border-color: transparent; padding: 5%;">
+
+    <div style="height: 600px; width: 45%; border-style: dashed; border-color: transparent; float:left">
+
+        <div class = "imagem1" style="height: 430px; width: 650px; margin:auto; background-image: url('./img/People/bart.jpg'); background-size: cover; position: relative; margin-top: 60px;">
+
+            <div class = "first" style="background-color: rgba(0,0,0,0.3); position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: white; font-size: 18px; display: none;">
+
+                <div style="text-align: center; margin-top:200px;">Bart riding his bike across the mountains...</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div style="height: 600px; width: 45%; border-style: dashed; border-color: transparent; float:right;">
+
+        <div class = "imagem1" style="height: 550px; width: 650px; margin:auto; background-image: url('./img/People/luis.jpg'); background-size: cover; position: relative;">
+
+            <div class = "first" style="background-color: rgba(0,0,0,0.3); position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: white; font-size: 18px; display: none;">
+
+                <div style="text-align: center; margin-top:250px;">Assembly of pictures over one of the most traditional PT materials. Bloody scenario.</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+    let acc = document.getElementsByClassName("imagem1");
+
+    let i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("mouseover", function() {
+            let panel = this.firstElementChild;
+
+            panel.style.display = "block";
+
+        });
+    }
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("mouseout", function() {
+            let panel = this.firstElementChild;
+
+            panel.style.display = "none";
+
+        });
+    }
+
+</script>
+
+<footer>
+    <div class="container2">
+
+        <p>© Copyright 2018 – LUI</p>
+        <div id = "socialMedia">
+            <a href = "https://www.facebook.com/luis.rita.12?ref=bookmarks">
+                <img src = "./img/MediaIcons/facebook.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.linkedin.com/in/lu%C3%ADs-rita-750302122/">
+                <img src = "./img/MediaIcons/linkedin.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.youtube.com/channel/UCUJV1y666FRLzpOXu3O8wDw">
+                <img src = "./img/MediaIcons/youtube.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "mailto:luis20dr@gmail.com">
+                <img src = "./img/MediaIcons/gmail.png" width="25" style="margin-right: 5%">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

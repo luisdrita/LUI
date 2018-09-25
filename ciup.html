@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Brad Traversy">
+    <title>LUI | Blog</title>
+
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Questrial" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <style>
+
+        body{
+            background-color: #ffffff;
+        }
+
+        article p {
+            text-align: justify;
+            font-family: "Raleway", sans-serif;
+            font-size: 12pt;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            line-height: 35px;
+        }
+
+        article h1,h2{
+            text-align: center;
+            font-family: "Raleway", sans-serif;
+            font-size: 18pt;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            line-height: 32px;
+        }
+
+        article img{
+            display:block;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        body,h1,h2,h3,h4,h5 {
+            font-family: "Raleway", sans-serif;
+            background-color: white;
+        }
+
+        header{
+
+            height: 117px;
+            font-family: handwritting;
+        }
+
+        header img{
+            display:block;
+            margin: auto;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        #popularPosts{
+            box-shadow: 2px 4px 18px #888888;
+            height: 300px;
+        }
+
+        footer{
+            padding:1px;
+            margin-top:1%;
+            color:#ffffff;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        footer p{
+            float: left;
+            border-style: dotted;
+            border-color: transparent;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #socialMedia{
+            display:block;
+            border-style: dashed;
+            border-color: transparent;
+            float:right;
+            margin-top:1%;
+            width: 150px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: #478ff4;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #478ff4;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 5px;
+            background-color: white;
+            height: 700px;
+        }
+
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 5px;
+            background-color: white;
+            height: 300px;
+        }
+
+        .grid-container3 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-gap: 5px;
+            background-color: white;
+            height: 600px;
+        }
+
+        .grid-container > div, .grid-container2 > div, .grid-container3 > div {
+            height: auto;
+            width: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .grid-container > div:hover, .grid-container2 > div:hover, .grid-container3 > div:hover {
+
+        }
+
+        .hiddenn{
+            display: none;
+            position: absolute;
+            color: black;
+            text-align: center;
+            font-size: 15px;
+            background-color: white;
+        }
+
+        .image:hover > .hiddenn{
+            display: block;
+            width: 19.9%;
+
+        }
+
+        .item3 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 3;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        }
+
+        /* Modal Content (Image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        /* Caption of Modal Image (Image Text) - Same Width as the Image */
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        /* Add Animation - Zoom in the Modal */
+        .modal-content, #caption {
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @keyframes zoom {
+            from {transform:scale(0)}
+            to {transform:scale(1)}
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        @font-face {
+            font-family: handwritting;
+            src: url(fonts/handwritting.ttf);
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<header>
+    <div style="border-style: dashed; border-color: transparent; width: 50%; height: 90%; margin: auto;">
+        <div id="branding" style="border-style: dashed; border-color: transparent; width: 30%; float: left; margin-left: 200px;">
+            <a href="index4.html">
+                <img src="./img/logo.png" width="100">
+            </a>
+        </div>
+        <p style="border-style: solid; border-color: transparent; width: 20%; float: left; margin-top: 3%; margin-right: 10%; text-align: center; font-size: 45px;">Blog</p>
+    </div>
+</header>
+
+<div style="width: 1000px; margin:auto";>
+<article>
+
+    <h1 style="text-align: center; margin-top: 25px; font-size: 30px;">Cité Internationale Universitaire de Paris</h1>
+
+    <h2>História e Reconhecimento</h2>
+
+    <p>
+        Iniciada a construção após o final da I Guerra Mundial, a Cité Internationale Universitaire de Paris acolhe,
+        desde então, estudantes de múltiplos países. Neste momento, cerca de 12 000 estudantes e investigadores
+        encontram-se distribuídos pelas 40 residências que compõem este gigantesco espaço parisiense, idealizado por
+        André Honnorat. <br/>
+        &emsp;&emsp;&emsp;De destacar, a candidatura ao prémio Nobel da Paz (2014) ganho pela paquistanesa Malala Yousafzai.
+    </p>
+
+    <h2>Localização</h2>
+
+    <p>
+        Edificada numa das zonas mais centrais de Paris, na conhecida Ilê-de-France. Tendo como consequência imediata, a
+    disponibilidade de uma panóplia de diferentes meios de transporte: <br/>
+    Serviço partilhado de bicicletas (tradicionais de cidade) e carros elétricos, a.k.a Vélib e Autolib, respetivamente; 
+    metro;
+    comboio;
+    autocarro. A proximidade ao aeroporto de Orly é também de destacar.
+    </p>
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(48.820076,2.338452);
+            var mapCanvas = document.getElementById("googleMap");
+            var mapOptions = {center: myCenter, zoom: 15};
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+                position:myCenter,
+                animation: google.maps.Animation.BOUNCE,
+            });
+            marker.setMap(map);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvoqX9GN1NJXo1vGeJ1XRATEDQ1uRgMps&callback=myMap"></script>
+
+    <h2>Cité Universitaire</h2>
+
+    <p> Com uma entrada imponente, é assim que ela se dá conhecer ao mais comum dos transeuntes. <br>
+
+        &emsp;&emsp;&emsp;Ousando atravessar os arcos à entrada da Cidade, um jardim e um edifício resplandecem aos olhos dos menos atentos.
+    Irremediáveis visões de Hogwarts florescem na mente d'alguém que outrora tenha assistido aos famosos filmes da saga:
+     Harry Potter. <br>
+
+    </p>
+
+    <div class="grid-container2">
+        <div class="image" style="background-image: url('./img/CIUP/img1.jpg');">
+
+            <div class = "hiddenn">Entrada Principal da CIUP</div>
+
+        </div>
+        <div class="image" style="background-image: url('./img/CIUP/img2.jpg');">
+
+            <div class = "hiddenn">Maison Internationale</div>
+
+        </div>
+
+</div>
+
+    <p>
+
+        &emsp;&emsp;&emsp; Contornando a Maison Internationale, começa-se finalmente a entender o motivo do nome. Traduzindo para PT, Cidade
+    Universitária Internacional de Paris. Existem campos de ténis (8), futebol, a possibilidade de praticar inúmeras
+    atividades desportivas a preços significativamente inferiores aos praticados, de forma geral, na Cidade da Luz. <br>
+
+        &emsp;&emsp;&emsp; Restaurante, cafetaria, banco (BNP Paribas) e correios são algumas das estruturas que se juntam aos mais
+    tradicionais locais de estudo e apoio ao estudante se localizam no mesmo espaço. Muitos deles defronte para
+    infinitas mantas verdes que se estendem um pouco por toda a parte. Dando voz, assim, ao já existente sentido
+    ecológico da "cidade".
+
+    </p>
+
+    <div class="grid-container3">
+        <div class="image" style="background-image: url('./img/CIUP/img3.jpg');">
+
+            <div class = "hiddenn">Campo de Ténis</div>
+
+        </div>
+        <div class="image" style="background-image: url('./img/CIUP/img4.jpg');">
+
+            <div class = "hiddenn">Campo de Futebol</div>
+
+        </div>
+
+    <div class="image" style="background-image: url('./img/CIUP/img5.jpg');">
+
+        <div class = "hiddenn">Jardins na CIUP</div>
+
+    </div>
+
+    <div class="image" style="background-image: url('./img/CIUP/img6.jpg');">
+
+        <div class = "hiddenn">Maison Internationale</div>
+
+    </div>
+
+    </div>
+
+    <p>
+        &emsp;&emsp;&emsp; Antes de apresentar algumas das casas, reforço o facto de serem disponibilizados um número considerável de serviços
+    de apoio ao residente, a poucos metros de distância. Preços inversamente proporcionais a esta medida de comprimento. ;) <br>
+
+        &emsp;&emsp;&emsp;São vários os países que se fazem representar por uma residência própria, em torno da central Casa Internacional.
+    Algumas obtêm financiamento proveniente da correspondente nação, outras maioritariamente a partir das rendas dos
+    hospedados. <br>
+
+        &emsp;&emsp;&emsp; Apresentam-se de seguida algumas das casas que tive oportunidade de fotografar, a efémeros dias do outono (ao final
+    da tarde): <br>
+
+    </p>
+
+    <div class="grid-container">
+        <div class="image" style="background-image: url('./img/CIUP/img6.jpg');">
+
+            <div class = "hiddenn">Maison de Norvège</div>
+
+        </div>
+        <div class="image" style="background-image: url('./img/CIUP/img7.jpg');">
+
+            <div class = "hiddenn">Fondation des États-Unis</div>
+
+        </div>
+        <div class="image item3" alt = "Maison" style="background-image: url('./img/CIUP/img10.jpg');">
+
+          <div class = "hiddenn">Maison des Étudiants Suédois</div>
+
+        </div>
+        <div class="image" style="background-image: url('./img/CIUP/img8.jpg');">
+
+            <div class = "hiddenn">Maison Heinrich-Hein (Maison de l'Allemagne)</div>
+
+        </div>
+        <div class="image" style="background-image: url('./img/CIUP/img9.jpg');">
+
+            <div class = "hiddenn">Fondation Suisse</div>
+
+        </div>
+        <div class="image" style="background-image: url('./img/CIUP/img11.jpg');">
+
+            <div class = "hiddenn">Collège Franco-Britannique</div>
+
+        </div>
+        <div class="image" style="background-image: url('./img/CIUP/img12.jpg'); ">
+
+            <div class = "hiddenn">Fondation Biermans-Lapotre</div>
+
+        </div>
+        <div class="image" style="background-image: url('./img/CIUP/img13.jpg'); ">
+
+            <div class = "hiddenn">Maison André de Gouveia (Maison du Portugal)</div>
+
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div>
+
+<script>
+
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementByClassName('item3');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.url;
+    captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+        </script>
+
+<p>
+    &emsp;&emsp;&emsp; PS: apesar de cada residência ter um nome dum país associado, é mandatória a presença de uma percentagem mínima de
+    estudantes internacionais. Com isto, pretende-se dar a conhecer os costumes e traços arquitectónico mais
+    caraterísticos de cada país, sem abdicar do contato permanente entre estudantes anteriormente separados por milhares
+    de quilómetros de distância.
+
+    </p>
+
+    <h2>Agenda Cultural & Desportiva</h2>
+
+    <p>
+        Com considerável regularidade, são promovidos diversos eventos culturais que abrangem diversas artes como a música,
+    o teatro, a fotografia e o cinema. <br>
+
+        &emsp;&emsp;&emsp;Tirando partido das excelentes instalações desportivas, seria de esperar o aproveitamento das mesmas para promoção
+    da atividade física. E é exatamente o que acontece... Não com uma regularidade notável, mas suficiente para
+    proporcionar alguns momentos de divertimento entre os residentes da Cité. <br>
+
+    + info - <a href ="http://www.ciup.fr/citescope/">http://www.ciup.fr/citescope/</a>
+
+    </p>
+
+    <h2>Condições de Acesso</h2>
+
+    <p>
+        Toda a candidatura é efetuada no site da CIUP: <a href ="http://www.ciup.fr/">http://www.ciup.fr/</a>. Posteriormente, tendo por base a nacionalidade
+    e o registo académico/extracurricular, deverá ser atribuído um quarto numa das residências. Naturalmente, com maior
+    probabilidade na do país de origem. <br>
+
+        &emsp;&emsp;&emsp;Dependendo da casa de acolhimento, os preços e condições dos quartos deverão variar. 
+
+    </p>
+
+    <h2>Apoio Financeiro (CAF)</h2>
+
+    <p>
+        Normalmente, uma bolsa é atribuída tendo por base os recursos financeiros de quem a requisita. A simulação do valor
+    a receber poderá ser facilmente feita na site indicado abaixo. 
+
+        <br>
+
+    + info - <a href ="http://www.caf.fr/">http://www.caf.fr/</a>
+    </p>
+
+    <h2>Futuro</h2>
+
+    <p>
+    A cidade encontra-se, neste momento, em plena expansão e espera vir a albergar estudantes nativos da Coreia do Sul
+    e China nas suas próprias casas até 2020.
+    </p>
+
+
+</article>
+</div>
+
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="margin-left: 46%">
+    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+    <a class="a2a_button_facebook"></a>
+    <a class="a2a_button_twitter"></a>
+    <a class="a2a_button_linkedin"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+
+<footer>
+    <div class="container2">
+
+        <p>© Copyright 2018 – LUI</p>
+        <div id = "socialMedia">
+            <a href = "https://www.facebook.com/luis.rita.12?ref=bookmarks">
+                <img src = "./img/MediaIcons/facebook.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.linkedin.com/in/lu%C3%ADs-rita-750302122/">
+                <img src = "./img/MediaIcons/linkedin.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.youtube.com/channel/UCUJV1y666FRLzpOXu3O8wDw">
+                <img src = "./img/MediaIcons/youtube.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "mailto:luis20dr@gmail.com">
+                <img src = "./img/MediaIcons/gmail.png" width="25" style="margin-right: 5%">
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

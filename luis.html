@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Brad Traversy">
+    <title>LUI | Blog</title>
+
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Questrial" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <style>
+
+        body{
+            background-color: #ffffff;
+        }
+
+        article p {
+            text-align: justify;
+            font-family: "Raleway", sans-serif;
+            font-size: 12pt;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            line-height: 38px;
+        }
+
+        article h2{
+            text-align: center;
+            font-family: "Raleway", sans-serif;
+            font-size: 18pt;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            line-height: 38px;
+        }
+
+        article img{
+            display:block;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        body,h1,h2,h3,h4,h5 {
+            font-family: "Raleway", sans-serif;
+            background-color: white;
+        }
+
+        header{
+
+            height: 117px;
+            font-family: "Raleway", sans-serif;
+
+        }
+
+        header img{
+            display:block;
+            margin: auto;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        #popularPosts{
+            box-shadow: 2px 4px 18px #888888;
+            height: 300px;
+        }
+
+        footer{
+            padding:1px;
+            margin-top:1%;
+            color:#ffffff;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        footer p{
+            float: left;
+            border-style: dotted;
+            border-color: black;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #socialMedia{
+            display:block;
+            border-style: dashed;
+            border-color: black;
+            float:right;
+            margin-top:1%;
+            width: 150px;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: #478ff4;
+        }
+
+        .hiddenn{
+            display: none;
+            position: absolute;
+            color: black;
+            text-align: center;
+            font-size: 15px;
+            background-color: white;
+        }
+
+        .image:hover > .hiddenn{
+            display: block;
+            width: 19.9%;
+
+        }
+
+        .item3 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 3;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        }
+
+        /* Modal Content (Image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        /* Caption of Modal Image (Image Text) - Same Width as the Image */
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        /* Add Animation - Zoom in the Modal */
+        .modal-content, #caption {
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @keyframes zoom {
+            from {transform:scale(0)}
+            to {transform:scale(1)}
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        @font-face {
+            font-family: handwritting;
+            src: url(fonts/handwritting.ttf);
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<header>
+    <div style="border-style: dashed; border-color: transparent; width: 50%; height: 90%; margin: auto;">
+        <div id="branding" style="border-style: dashed; border-color: transparent; width: 25%; float: left; margin-top: -2px; margin-left: 190px;">
+            <a href="index4.html">
+                <img src="./img/logo.png" width="100">
+            </a>
+        </div>
+        <p style="border-style: dashed; border-color: transparent; width: 5%; float: left; margin-top: 2.8%; margin-right: 10%; text-align: center; font-size: 40px;">LUIS</p>
+    </div>
+</header>
+
+<div style="width: 1000px; margin:auto";>
+<article>
+
+    <h1 style="font-size: 35px; text-align: center;">Luís Rita</h1>
+
+    <div style="background-image: url('./img/cvIcons/dna.jpg'); background-size: cover; height: 400px; width: 96%;padding: 20px; border-radius: 20px; margin-left: 0px;">
+
+    <img src="./img/cvIcons/luiss.png" style="float: left; width: 400px; margin-top: 30px; margin-left: 20px;">
+
+    <div style="border-style: solid; border-color: black; border-width: 3px; width: 500px; float: right; padding: 15px;">
+
+    <h2 style="background: none; color: white;">About me...</h2>
+
+    <p style="color: white;">
+        Student with a strong passion in learning, creating and exploring new ways of thinking.
+        My willingness to work hard, my open personality and optimism, allow me to positively influence my peers and to
+        promote group cohesion. Softening, initially hard tasks.
+        I am always open to new projects with potential to have a positive impact. Because, at the end, it is what
+        matters... Our experiences and how we use them to make the world a better place.
+    </p>
+
+    </div>
+
+    <!--    <div style="width: 300px; float: right; padding: 15px; color: white; margin-top: -50px; text-align: left; margin-right: 75px; line-height: 25px;">
+
+                Lisbon, 20th of April 1995
+
+        </div>
+
+        -->
+
+    </div>
+
+    <div>
+
+    <h2 style="background-color: black; color: white;">Hobbies & Leadership</h2>
+
+    <p style="position: relative;">
+        Enrolling in many high-level competition activities allowed me to develop useful skills to perform well under
+        pressure and gave me some leadership capabilities: <br>
+
+        <img src="img/cvIcons/aeist.png" style="width: 75px; position: absolute; right: 45px; top: 40px;">
+        1. AEISTécnico Futsal Athlete (Portuguese University Futsal League); <br>
+
+        <img src="img/cvIcons/karate.jpeg" style="width: 50px; position: absolute; right: 50px; top: 100px;">
+        2. Ohshikai Karate Do Goju Ryu Athlete - Brown Belt (including participation in several National Championships).
+    </p>
+
+    </div>
+
+    <h2 style="background-color: black; color: white;">Volunteering & Experience</h2>
+
+    <p style="position: relative;">
+
+        <img src="img/cvIcons/imm.png" style="width: 150px; position: absolute; right: 0;">
+        Institute of Molecular Medicine Lisbon (iMM)<br>
+        <b>2018 – Moment</b><br>
+        [Master Thesis in Bioinformatics – Community Finding in Phylogenetic Networks]<br><br>
+
+        <img src="img/cvIcons/pencil.jpg" style="width: 75px; position: absolute; right: 40px;">
+        Private Mathematics & Physics Tutor<br>
+        <b>2017 – Moment</b><br>
+        [Teaching in my hometown to high school students]<br><br>
+
+        <img src="img/cvIcons/sorbonne.png" style="width: 150px; position: absolute; right: 5px;margin-top: 60px;">
+        Guest Speaker in International Day (Erasmus+ 30th birthday)<br>
+        <b>2017</b> Sorbonne Université<br>
+        [In collaboration with the Portuguese Embassy in France, the goal was to run a stand to share my experiences, <br>present
+        my country, my university of origin and attract students to take their mobility there]<br><br>
+
+        <img src="img/cvIcons/nfist.png" style="width: 100px; margin-top: 60px; position: absolute; right: 25px;">
+        Astro (NFIST) Member<br>
+        <b>2013 – Moment</b><br>
+        [Non-profit organization which objective is to promote the interest around astronomy and astrophysics, in Portugal, <br>through workshops, planetary sessions and observational activities]<br><br>
+
+    </p>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div>
+
+<script>
+
+    var modal = document.getElementById('myModal');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementByClassName('item3');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.url;
+    captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+        </script>
+
+    <h2 style="background-color: black; color: white;">Languages</h2>
+
+    <p>
+        English (Advanced Level)<br>
+        French (Intermediate Level)<br>
+        Spanish (Basic Level)<br>
+        Portuguese (Native)<br>
+
+    </p>
+
+    <h2 style="background-color: black; color: white;">Education</h2>
+
+
+    <p style="position: relative;">
+
+        <img src="img/cvIcons/sorbonne.png" style="width: 150px; position: absolute; right: 5px;">
+        Sorbonne Université<br>
+        Mechatronic Systems for Rehabilitation<br>
+        Mobility semester (prediction): in the top 15%.<br>
+        <b>2017 – 2018</b><br><br>
+
+        <img src="img/cvIcons/ist.png" style="width: 150px; position: absolute; right: 2px;">
+        Instituto Superior Técnico (University of Lisbon)<br>
+        Integrated Masters Biomedical Engineering. Bachelor’s degree in the top 25% - 14.2 (0 - 20); Master’s degree <br>(prediction): in the top 15% - 17 (0 - 20)<br>
+            <b>2016 – 2018</b> (Master’s Degree); <br><b>2013 – 2016</b> (Bachelor’s Degree)<br><br>
+
+        <img src="img/cvIcons/fmul.png" style="width: 150px; margin-top: -50px; position: absolute; right: 5px;">
+        Faculty of Medicine (University of Lisbon)<br>
+        Integrated Masters Biomedical Engineering. Same grades as in Instituto Superior Técnico (course integrated in the <br> previous)<br>
+                <b>2013 – 2018</b><br><br>
+
+        <img src="img/cvIcons/eseq.jpeg" style="width: 150px; margin-top: 50px; position: absolute; right: 0;">
+
+        Escola Secundária Eça de Queirós (High School)<br>
+        Sciences and Technologies. Grades each school year: <b>2010/2011</b> (0 - 20) - 18.3; <b>2011/2012</b> (0 - 20) – 18.3;<br> <b>2012/2013</b> (0 - 20) – 19.
+        Final Results (accounting with national exams): Physics & Chemistry (<b>2012</b>) - 17 (0 – 20); <br> Biology & Geology (<b>2012</b>) – 19 (0 – 20); Mathematics (<b>2013</b>) – 19 (0 – 20).<br>
+        <b>2010 – 2013</b>
+         
+    </p>
+
+    <h2 style="background-color: black; color: white;">Honors & Awards</h2>
+
+    <p style="position: relative">
+
+        <img src="img/cvIcons/mit.png" style="width: 150px; position: absolute; right: 0;">
+        MIT App Inventor 2 App of the Month<br>
+        <b>2018</b> MIT <br>
+        [Prize attributed to the best Android apps developed using MIT AI2] <br><br>
+
+        <img src="img/cvIcons/europeanComission.png" style="width: 150px; margin-top: 25px; position: absolute; right: 0;">
+        Erasmus SMS Scholarship<br>
+        <b>2017</b> European Commission<br>
+        [Bursary awarded to students in order to help them to cover their living expenses during mobility in a foreign <br> university – Sorbonne Université] <br><br>
+
+        <img src="img/cvIcons/spAstro.jpg" style="width: 150px; position: absolute; right: 0;">
+        3rd place in the National Astronomy Olympiad<br>
+            <b>2013</b> SP Astronomia (Fronteira, Portugal)<br>
+        [The 10 best classified in the country were selected to participate in a national final]<br><br>
+
+        <img src="img/cvIcons/ioaa.png" style="width: 150px; margin-top: 15px; position: absolute; right: 0;">
+        Participation at International Olympiad on Astronomy and Astrophysics<br>
+                <b>2013</b> IOAA (Volos, Greece)<br>
+        [The 3 best classified in Portugal represented the country in an international Olympiad]<br><br>
+
+        <img src="img/cvIcons/biologia.jpg" style="width: 150px; margin-top: 30px; position: absolute; right: 0px;">
+        Participation at National Final Biology Olympiad<br>
+                    <b>2013</b> Ordem dos Biólogos (Lisbon, Portugal)<br>
+        [The 36 best classified in the country were selected to participate in a national final]<br><br>
+
+        <img src="img/cvIcons/eseq.jpeg" style="width: 150px; position: absolute; right: 0;">
+        High School Honor Roll<br>
+                        <b>2013</b> Escola Secundária Eça de Queirós (Lisbon, Portugal)<br>
+        [Award given to the 2 most outstanding students in the school]<br><br>
+
+        <img src="img/cvIcons/rotary.jpeg" style="width: 100px; position: absolute; right: 35px;">
+        High School Academic Merit Award<br>
+                            <b>2013</b> Rotary - Clube Lisboa - Olivais e Fundação Rotária Portuguesa (Lisbon, Portugal)<br>
+        [Prize attributed to the best students in Lisbon]<br><br>
+
+        <img src="img/cvIcons/eseq.jpeg" style="width: 150px; margin-top: 25px; position: absolute; right: 0;">
+        High School Excellence Award<br>
+                                <b>2011, 2012 & 2013</b> Escola Secundária Eça de Queirós (Lisbon, Portugal)<br>
+        [Award attributed based exclusively in the score obtained by the end of each year]
+
+    </p>
+
+</article>
+</div>
+
+<footer>
+    <div class="container2">
+
+        <p>© Copyright 2018 – LUI</p>
+        <div id = "socialMedia">
+            <a href = "https://www.facebook.com/luis.rita.12?ref=bookmarks">
+                <img src = "./img/MediaIcons/facebook.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.linkedin.com/in/lu%C3%ADs-rita-750302122/">
+                <img src = "./img/MediaIcons/linkedin.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.youtube.com/channel/UCUJV1y666FRLzpOXu3O8wDw">
+                <img src = "./img/MediaIcons/youtube.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "mailto:luis20dr@gmail.com">
+                <img src = "./img/MediaIcons/gmail.png" width="25" style="margin-right: 5%">
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

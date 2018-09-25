@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Art</title>
+
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+
+    <style>
+        body,h1,h2,h3,h4,h5 {
+            font-family: "Raleway", sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header img{
+            display:block;
+            margin: auto;
+            margin-top: 1%;
+            margin-bottom: 1%;
+        }
+
+        header{
+            font-family: brushed;
+            letter-spacing: 3px;
+            height: 117px;
+        }
+
+        #About{
+            display: block;
+            border-style: dotted;
+            height: 1500px;
+            width: 30%;
+            float:right;
+            padding: 10px;
+        }
+
+        #popularPosts{
+            box-shadow: 2px 4px 18px #888888;
+            height: 300px;
+        }
+
+        footer{
+            padding:0px;
+            margin-top:0px;
+            color:#ffffff;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        footer p{
+            float: left;
+            border-style: dotted;
+            border-color: transparent;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        #socialMedia{
+            display:block;
+            border-style: dashed;
+            border-color: transparent;
+            float:right;
+            margin-top:1%;
+            width: 150px;
+        }
+
+        .container2 {
+            width:80%;
+            margin:auto;
+            padding: 0%;
+            overflow:hidden;
+            border-style: dotted;
+            border-color: transparent;
+            text-align: center;
+        }
+
+
+        a:link {
+            text-decoration: none;
+            color: #478ff4;
+        }
+
+/*
+        a:hover {
+            text-decoration: underline;
+            color: #478ff4;
+        }
+        */
+
+        .parallax {
+            /* The image used */
+
+            /* Set a specific height */
+            min-height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .button {
+            display: block;
+            text-align: center;
+            color: white;
+            width: 20%;
+            font-size: 40px;
+            border-color: black;
+            border-width: 4px;
+            margin:auto;
+            border-radius: 10px;
+            background: none;
+
+        }
+
+        button:hover {
+            background-color: black;
+            cursor: pointer;
+        }
+
+        @font-face {
+            font-family: brushed;
+            src: url(fonts/brushed.ttf);
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+    <div style="border-style: dashed; border-color: transparent; width: 50%; height: 90%; margin: auto;">
+    <div id="branding" style="border-style: dashed; border-color: transparent; width: 50%; float: left; margin-top: -2px; margin-left: 70px;">
+        <a href="index4.html">
+            <img src="./img/logo.png" width="100">
+        </a>
+    </div>
+    <p style="border-style: dashed; border-color: transparent; width: 30%; float: left; margin-top: 2.8%; margin-right: 10%; text-align: center; font-size: 40px;">Photography</p>
+    </div>
+</header>
+
+<div class="parallax" style="background-image: url('./img/Nature/loriga.jpg');border-style: dashed; border-color: transparent;">
+    <div style="border-style: dashed; border-color: transparent;margin-top: 220px;">
+        <a href="nature.html">
+        <button class="button">Nature</button>
+        </a>
+    </div>
+</div>
+
+<div style="border-style: dashed; height: 50px; background-color: black; border-color: transparent;">
+
+    <p id="demo1" style="color: white; font-size: 20px; text-align: center; margin-top: 10px;"></p>
+
+    <script>
+        var i = 0;
+        var txt = 'Animals, plants and sea are some ubiquitous elements present in this set of photos.';
+        var speed = 50;
+
+        function typeWriter1() {
+            if (i < txt.length) {
+                document.getElementById("demo1").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter1, speed);
+            }
+        }
+        typeWriter1();
+    </script>
+
+</div>
+
+<div class="parallax" style="background-image: url('./img/City/ponte.jpg'); border-style: dashed; border-color: transparent;">
+
+    <div style="border-style: dashed; margin-top: 220px; border-color: transparent;">
+        <a href="city.html">
+        <button class="button">City</button>
+        </a>
+    </div>
+
+</div>
+
+<div style="border-style: dashed; border-color: transparent; height: 50px; background-color: black;">
+
+    <p id="demo2" style="color: white; font-size: 20px; text-align: center; margin-top: 10px;"></p>
+
+    <script>
+        var txt2 = 'Bridges, cars and buildings everywhere.';
+        var i2 = 0;
+        var speed2 = 50;
+
+        function typeWriter2() {
+            if (i2 < txt2.length) {
+                document.getElementById("demo2").innerHTML += txt2.charAt(i2);
+                i2++;
+                setTimeout(typeWriter2, speed2);
+            }
+        }
+        typeWriter2();
+    </script>
+
+</div>
+
+<div class="parallax" style="background-image: url('./img/luis2.jpg'); border-style: dashed; border-color: transparent;">
+
+    <div style="border-style: dashed; margin-top: 220px; border-color: transparent;">
+        <a href="people.html">
+        <button class="button">People</button>
+        </a>
+    </div>
+
+</div>
+
+<div style="border-style: dashed; border-color: transparent; height: 50px; background-color: black;">
+
+    <p id="demo3" style="color: white; font-size: 20px; text-align: center; margin-top: 10px"></p>
+
+    <script>
+        var txt3 = 'Photos captured in particular positions and unique scenarios.';
+        var i3 = 0;
+        var speed3 = 50;
+
+        function typeWriter3() {
+            if (i3 < txt3.length) {
+                document.getElementById("demo3").innerHTML += txt3.charAt(i3);
+                i3++;
+                setTimeout(typeWriter3, speed3);
+            }
+        }
+        typeWriter3();
+    </script>
+
+</div>
+
+<footer>
+    <div class="container2">
+
+        <p>© Copyright 2018 – LUI</p>
+        <div id = "socialMedia">
+            <a href = "https://www.facebook.com/luis.rita.12?ref=bookmarks">
+                <img src = "./img/MediaIcons/facebook.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.linkedin.com/in/lu%C3%ADs-rita-750302122/">
+                <img src = "./img/MediaIcons/linkedin.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.youtube.com/channel/UCUJV1y666FRLzpOXu3O8wDw">
+                <img src = "./img/MediaIcons/youtube.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "mailto:luis20dr@gmail.com">
+                <img src = "./img/MediaIcons/gmail.png" width="25" style="margin-right: 5%">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
