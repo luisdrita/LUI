@@ -247,7 +247,7 @@
         <counts>
           <entry key="css" value="7" />
           <entry key="html" value="325" />
-          <entry key="js" value="1" />
+          <entry key="js" value="2" />
           <entry key="png" value="1" />
           <entry key="ts" value="1" />
         </counts>
@@ -257,21 +257,21 @@
           <entry key="CSS" value="7" />
           <entry key="HTML" value="325" />
           <entry key="Image" value="1" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="2" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="21" />
-          <entry key="html" value="10086" />
+          <entry key="html" value="10087" />
           <entry key="js" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="21" />
-          <entry key="HTML" value="10086" />
+          <entry key="HTML" value="10087" />
           <entry key="JavaScript" value="15" />
         </counts>
       </usages-collector>
@@ -575,15 +575,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/education/University/Pieces of Work/Implantable Medical Devices in the Eyes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/education/University/Pieces of Work/Properties of Biological Materials.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
@@ -595,8 +586,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -877,12 +868,12 @@
       <workItem from="1537786860742" duration="12429000" />
       <workItem from="1537824142787" duration="8143000" />
       <workItem from="1537878505266" duration="412000" />
-      <workItem from="1537882165870" duration="7886000" />
+      <workItem from="1537882165870" duration="8652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330668000" />
+    <option name="totallyTimeSpent" value="331434000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -942,13 +933,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/files/Personal Projects/My Creations/calendar20152016.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="124" column="44" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/files/University/Labs/Reações Ácido-Base para Separação de Compostos Orgânicos.html" />
     <entry file="file://$PROJECT_DIR$/education/University/Pieces of Work/tabelaPeriodica 5.html" />
     <entry file="file://$PROJECT_DIR$/education/University/Pieces of Work/tabelaPeriodica 6.html" />
@@ -1551,10 +1535,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vivagraph.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
