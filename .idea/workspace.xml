@@ -246,7 +246,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="7" />
-          <entry key="html" value="322" />
+          <entry key="html" value="325" />
           <entry key="js" value="1" />
           <entry key="png" value="1" />
           <entry key="ts" value="1" />
@@ -255,7 +255,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="322" />
+          <entry key="HTML" value="325" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="TypeScript" value="1" />
@@ -264,14 +264,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="21" />
-          <entry key="html" value="10071" />
+          <entry key="html" value="10086" />
           <entry key="js" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="21" />
-          <entry key="HTML" value="10071" />
+          <entry key="HTML" value="10086" />
           <entry key="JavaScript" value="15" />
         </counts>
       </usages-collector>
@@ -321,33 +321,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/education/University/Pieces of Work/Extracorporeal Artificial Organs - Kidney &amp; Lungs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/education/University/Pieces of Work/Fe-C Binary Phase Diagram.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/education/University/Pieces of Work/Foreign - Body Reaction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/education.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
@@ -584,6 +557,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="193" column="35" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/education/Personal Projects/My Creations/tabelaPeriodica.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="128" column="37" lean-forward="true" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/education/University/Pieces of Work/Implantable Medical Devices in the Eyes.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="436">
@@ -597,6 +588,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
               <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -675,11 +675,9 @@
         <option value="$PROJECT_DIR$/tabelaPeriodica.html" />
         <option value="$PROJECT_DIR$/art.html" />
         <option value="$PROJECT_DIR$/city.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/luis.html" />
         <option value="$PROJECT_DIR$/nature.html" />
         <option value="$PROJECT_DIR$/people.html" />
-        <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/ciup.html" />
         <option value="$PROJECT_DIR$/education/High School/Labs/Lançamento Oblíquo de Projéteis.html" />
         <option value="$PROJECT_DIR$/education/High School/Labs/Som.html" />
@@ -697,7 +695,6 @@
         <option value="$PROJECT_DIR$/education/Personal Projects/DIY/sketchup.html" />
         <option value="$PROJECT_DIR$/education/Personal Projects/My Creations/calendar20152016.html" />
         <option value="$PROJECT_DIR$/education/Personal Projects/My Creations/calendar20162017.html" />
-        <option value="$PROJECT_DIR$/education/Personal Projects/My Creations/tabelaPeriodica.html" />
         <option value="$PROJECT_DIR$/education/University/Labs/Amplificação do Gene pgmG a partir do DNA Cromossómico de Sphingomonas elodea [PCR].html" />
         <option value="$PROJECT_DIR$/education/University/Labs/Estudo do Metabolismo Eritrocitário.html" />
         <option value="$PROJECT_DIR$/education/University/Labs/Introdução de Plasmídeos em Bactérias por Conjugação Triparental e Eletrotransformação.html" />
@@ -714,6 +711,9 @@
         <option value="$PROJECT_DIR$/education/University/Projects/ECG.html" />
         <option value="$PROJECT_DIR$/education/University/Projects/RCar | Robots for All!.html" />
         <option value="$PROJECT_DIR$/education.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/education/Personal Projects/My Creations/tabelaPeriodica.html" />
+        <option value="$PROJECT_DIR$/blog.html" />
       </list>
     </option>
   </component>
@@ -745,57 +745,6 @@
             <path>
               <item name="acme" type="b2602c69:ProjectViewProjectNode" />
               <item name="acme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="High School" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="Personal Projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="Personal Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="DIY" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="Personal Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="My Creations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="University" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="University" type="462c0819:PsiDirectoryNode" />
-              <item name="Pieces of Work" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acme" type="462c0819:PsiDirectoryNode" />
-              <item name="education" type="462c0819:PsiDirectoryNode" />
-              <item name="University" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -928,12 +877,12 @@
       <workItem from="1537786860742" duration="12429000" />
       <workItem from="1537824142787" duration="8143000" />
       <workItem from="1537878505266" duration="412000" />
-      <workItem from="1537882165870" duration="7255000" />
+      <workItem from="1537882165870" duration="7886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330037000" />
+    <option name="totallyTimeSpent" value="330668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1080,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="179" column="22" selection-start-line="179" selection-start-column="22" selection-end-line="179" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exp.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1110,13 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2985">
-          <caret line="199" column="9" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1246,13 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/education/Personal Projects/My Creations/tabelaPeriodica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="113" column="35" lean-forward="true" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1606,6 +1534,27 @@
             <element signature="n#style#0;n#span#1;n#div#4;n#div#23;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#div#4;n#div#23;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="193" column="35" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/education/Personal Projects/My Creations/tabelaPeriodica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="128" column="37" lean-forward="true" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
         </state>
       </provider>
     </entry>
