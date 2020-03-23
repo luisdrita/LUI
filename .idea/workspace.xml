@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7fbe27-9b07-47d6-8750-2a529faddad6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VivaGraphJS" beforeDir="false" afterPath="$PROJECT_DIR$/VivaGraphJS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VivaGraphJS/dist/vivagraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/VivaGraphJS/dist/vivagraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirst.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +213,7 @@
       <workItem from="1547303131316" duration="96000" />
       <workItem from="1562276315602" duration="781000" />
       <workItem from="1562421051686" duration="1148000" />
-      <workItem from="1584987029267" duration="624000" />
+      <workItem from="1584987029267" duration="907000" />
     </task>
     <servers />
   </component>
